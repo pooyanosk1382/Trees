@@ -18,3 +18,6 @@ In computer science, a red–black tree is a kind of self-balancing binary searc
 When the tree is modified, the new tree is rearranged and "repainted" to restore the coloring properties that constrain how unbalanced the tree can become in the worst case. The properties are designed such that this rearranging and recoloring can be performed efficiently.
 
 The re-balancing is not perfect, but guarantees searching in O ( log ⁡ n ) O(\log n) time, where n n is the number of entries. The insert and delete operations, along with the tree rearrangement and recoloring, are also performed in O ( log ⁡ n ) O(\log n) time.
+
+# Btree
+In computer science, a B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. The B-tree generalizes the binary search tree, allowing for nodes with more than two children. Unlike other self-balancing binary search trees, the B-tree is well suited for storage systems that read and write relatively large blocks of data, such as databases and file systems. 
